@@ -31,8 +31,8 @@ SECRET_KEY = 'django-insecure-%y16ji&jd#y9ys@5xde^3io(eh+@ad_8e5jn24bxc2h5929xg*
 DEBUG = True
 
 ## (replace the string below with your own site URL):
-ALLOWED_HOSTS = ['web-production-3640.up.railway.app', '127.0.0.1']
-CSRF_TRUSTED_ORIGINS = ['https://web-production-3640.up.railway.app']
+ALLOWED_HOSTS = ['web-production-e80b.up.railway.app', '127.0.0.1']
+CSRF_TRUSTED_ORIGINS = ['https://web-production-e80b.up.railway.app/']
 
 # During development, you can instead set just the base URL
 # (you might decide to change the site a few times).
