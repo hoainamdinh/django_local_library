@@ -36,7 +36,6 @@ CSRF_TRUSTED_ORIGINS = ['https://hnamsflex.pythonanywhere.com']
 
 # During development, you can instead set just the base URL
 # (you might decide to change the site a few times).
-# ALLOWED_HOSTS = ['.pythonanywhere.com','127.0.0.1']
 
 
 # Application definition
