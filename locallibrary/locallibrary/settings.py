@@ -30,7 +30,12 @@ SECRET_KEY = 'django-insecure-%y16ji&jd#y9ys@5xde^3io(eh+@ad_8e5jn24bxc2h5929xg*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+## (replace the string below with your own site URL):
+ALLOWED_HOSTS = ['hnamsflex.pythonanywhere.com', '127.0.0.1']
+CSRF_TRUSTED_ORIGINS = ['https://hnamsflex.pythonanywhere.com']
+
+# During development, you can instead set just the base URL
+# (you might decide to change the site a few times).
 
 
 # Application definition
