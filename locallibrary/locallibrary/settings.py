@@ -30,12 +30,12 @@ SECRET_KEY = 'django-insecure-%y16ji&jd#y9ys@5xde^3io(eh+@ad_8e5jn24bxc2h5929xg*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-## (replace the string below with your own site URL):
-ALLOWED_HOSTS = ['web-production-e80b.up.railway.app', '127.0.0.1']
-CSRF_TRUSTED_ORIGINS = ['https://web-production-e80b.up.railway.app/']
+# Set hosts to allow any app on Railway and the local testing URL
+ALLOWED_HOSTS = ['.railway.app', '.pythonanywhere.com', '127.0.0.1']
 
-# During development, you can instead set just the base URL
-# (you might decide to change the site a few times).
+# Set CSRF trusted origins to allow any app on Railway and the local testing URL
+CSRF_TRUSTED_ORIGINS = ['https://*.railway.app',
+                        'https://*.pythonanywhere.com']
 
 
 # Application definition
